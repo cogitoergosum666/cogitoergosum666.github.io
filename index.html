@@ -158,6 +158,9 @@
 <p>然后 source 文件夹中会出现一个 My New Post.md 文件，就可以使用 Markdown 编辑器在该文件中撰写文章了。</p>
 <p>写完后运行下面代码将文章渲染并部署到 GitHub Pages 上完成发布。<strong>以后每次发布文章都是这两条命令。</strong></p>
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g   # 生成页面</span><br><span class="line">hexo d   # 部署发布</span><br></pre></td></tr></table></figure>
+
+<p>也可以不使用命令自己创建 .md 文件，只需在文件开头手动加入如下格式 Front-matter 即可，写完后运行 <code>hexo g</code> 和 <code>hexo d</code> 发布。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World # 标题</span><br><span class="line">date: 2019/3/26 hh:mm:ss # 时间</span><br><span class="line">categories: # 分类</span><br><span class="line">- Diary</span><br><span class="line">tags: # 标签</span><br><span class="line">- PS3</span><br><span class="line">- Games</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
