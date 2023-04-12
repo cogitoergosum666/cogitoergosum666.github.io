@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>使用Hexo时用asset-link插入图片 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="现有的图片插件asset-img的问题asset-img的用处就是将makrdown文件中的图片链接转化为静态网页中的图片链接，而因为其固有设置（实际上该项目已经不再维护），它需要以以下形式插入图片：  此处我插入显示我node.js版本号的图片，虽然满足了asset-img的路径要求，但我的markdown文档就算不是所见即所得的了，这十分不便。 新一代插件asset-link的妙用完整的REA">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/2023/04/12/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/index.html">
+<meta property="og:title" content="使用Hexo时用asset-link插入图片">
+<meta property="og:url" content="http://example.com/2023/04/11/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="现有的图片插件asset-img的问题asset-img的用处就是将makrdown文件中的图片链接转化为静态网页中的图片链接，而因为其固有设置（实际上该项目已经不再维护），它需要以以下形式插入图片：  此处我插入显示我node.js版本号的图片，虽然满足了asset-img的路径要求，但我的markdown文档就算不是所见即所得的了，这十分不便。 新一代插件asset-link的妙用完整的REA">
 <meta property="og:locale" content="en_US">
@@ -17,9 +17,10 @@
 <meta property="og:image" content="http://example.com/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/image-20230412111413849.png">
 <meta property="og:image" content="http://example.com/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/image-20230412111605432.png">
 <meta property="og:image" content="http://example.com/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/image-20230412111817386.png">
-<meta property="article:published_time" content="2023-04-12T02:49:49.318Z">
-<meta property="article:modified_time" content="2023-04-12T03:20:10.982Z">
+<meta property="article:published_time" content="2023-04-11T10:57:58.000Z">
+<meta property="article:modified_time" content="2023-04-12T03:27:53.397Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="Learning">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/image-20230412110246502.png">
   
@@ -80,20 +81,30 @@
       <div class="outer">
         <section id="main"><article id="post-使用Hexo时用asset-link插入图片" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2023/04/12/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" class="article-date">
-  <time class="dt-published" datetime="2023-04-12T02:49:49.318Z" itemprop="datePublished">2023-04-12</time>
+    <a href="/2023/04/11/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" class="article-date">
+  <time class="dt-published" datetime="2023-04-11T10:57:58.000Z" itemprop="datePublished">2023-04-11</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      使用Hexo时用asset-link插入图片
+    </h1>
+  
+
+      </header>
+    
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h2 id="现有的图片插件asset-img的问题"><a href="#现有的图片插件asset-img的问题" class="headerlink" title="现有的图片插件asset-img的问题"></a>现有的图片插件asset-img的问题</h2><p>asset-img的用处就是将makrdown文件中的图片链接转化为静态网页中的图片链接，而因为其固有设置（实际上该项目已经不再维护），它需要以以下形式插入图片：</p>
 <p><img src="/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/image-20230412110246502.png" alt="image-20230412110246502"></p>
 <p>此处我插入显示我node.js版本号的图片，虽然满足了asset-img的路径要求，但我的markdown文档就算不是所见即所得的了，这十分不便。</p>
-<h2 id="新一代插件asset-link的妙用"><a href="#新一代插件asset-link的妙用" class="headerlink" title="新一代插件asset-link的妙用"></a>新一代插件asset-link的妙用</h2><p>完整的<a href="/2023/04/12/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/README.pdf">README</a></p>
+<h2 id="新一代插件asset-link的妙用"><a href="#新一代插件asset-link的妙用" class="headerlink" title="新一代插件asset-link的妙用"></a>新一代插件asset-link的妙用</h2><p>完整的<a href="/2023/04/11/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/README.pdf">README</a></p>
 <p><img src="/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/image-20230412111413849.png" alt="image-20230412111413849"></p>
 <p>直接查看其官方文档，可以看到它不仅让编辑md文件时所见即所得，还利索的解决了图片路径转换的问题。如上所述，它还能贴pdf文档的链接，大大拓展了博客的边界。</p>
 <p><img src="/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/image-20230412111605432.png" alt="image-20230412111605432"></p>
@@ -108,20 +119,31 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/04/12/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-id="clgd4ixac000084uk6pgtbbyx" data-title="" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/04/11/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/" data-id="clgd4ixac000084uk6pgtbbyx" data-title="使用Hexo时用asset-link插入图片" class="article-share-link">Share</a>
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Learning/" rel="tag">Learning</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
+    <a href="/2023/04/11/test-pic/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          test-pic
+        
+      </div>
+    </a>
   
-    <a href="/2023/04/11/test-pic/" id="article-nav-older" class="article-nav-link-wrap">
+  
+    <a href="/2023/04/11/%E4%BD%BF%E7%94%A8Hexo%E9%85%8D%E7%BD%AE%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">test-pic</div>
+      <div class="article-nav-title">使用Hexo配置个人博客</div>
     </a>
   
 </nav>
@@ -173,11 +195,11 @@
       <ul>
         
           <li>
-            <a href="/2023/04/12/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/">(no title)</a>
+            <a href="/2023/04/11/test-pic/">test-pic</a>
           </li>
         
           <li>
-            <a href="/2023/04/11/test-pic/">test-pic</a>
+            <a href="/2023/04/11/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/">使用Hexo时用asset-link插入图片</a>
           </li>
         
           <li>
