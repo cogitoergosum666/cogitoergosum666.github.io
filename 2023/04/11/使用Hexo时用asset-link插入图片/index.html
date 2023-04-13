@@ -304,7 +304,7 @@
 <h2 id="Typora相关设置"><a href="#Typora相关设置" class="headerlink" title="Typora相关设置"></a>Typora相关设置</h2><p>为了愉快地编写博客，我们还需要对Typora做相关设置，使得我们的图片文件自动地存储在同目录同名文件夹中，这样就可以专注于md文章，而无需费力调整图片链接了。</p>
 <p><img src="/2023/04/11/%E4%BD%BF%E7%94%A8Hexo%E6%97%B6%E7%94%A8asset-link%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/image-20230412113202044.png" srcset="/img/loading.gif" lazyload alt="image-20230412113202044"></p>
 <p>这样，每次引入图片，图片都会复制一份到同目录同名文件夹中。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$&#123;filename&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-variable">$&#123;filename&#125;</span><br></code></pre></td></tr></table></figure>
 
 <p>表示当前文件名，<code>.</code>代表当前路径，<code>/</code>代表路径下的某一个目录。</p>
 
