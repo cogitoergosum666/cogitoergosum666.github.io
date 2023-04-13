@@ -4,6 +4,38 @@
   
   
   <entry>
+    <title>Keystroke dynamics详解</title>
+    <link href="/2023/04/13/Keystroke%20dynamics%E8%AF%A6%E8%A7%A3/"/>
+    <url>/2023/04/13/Keystroke%20dynamics%E8%AF%A6%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[<p>今天观看60 minutes的<a href="https://www.youtube.com/watch?v=lzJAzZmPQys">节目</a>时，其提到某科技公司会利用”Keystroke dynamics”来追踪用户行为，分析用户数据，绘制用户画像。中文互联网中的相关内容较少，我自行搜索学习后总结如下：</p><h2 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h2><p>早在电报时代，电报员便通过个性化的发报频率形成了独属于自己的“签名”。在第二次世界大战期间，军方就通过摩尔斯密码传递信息。使用一种被称为 “发送者的拳头（The Fist of the Sender） “的方法，军事情报部门发现一个人有一种独特的方式来键入信息的 “点（dots) “和 “破折号(dashes)”，这样会创造一种独特的节奏，区分这种节奏可以帮助区分盟友和敌人。</p><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>按键动态的行为生物识别（ behavioral biometric of Keystroke Dynamics ）使用个人在键盘或小键盘上输入字符的方式和节奏。用户的按键节奏被测量，以开发用户打字模式的独特生物识别模板，用于未来的认证。按键被分为静态和动态（static and dynamic）打字，用于帮助区分授权和未经授权的用户。振动信息可用于创建一个模式，以便未来用于识别和认证任务。</p><h2 id="研究现状（截至2023）"><a href="#研究现状（截至2023）" class="headerlink" title="研究现状（截至2023）"></a>研究现状（截至2023）</h2><p>早期对此的研究专注于安全领域，但是相较于物理方面的生物识别（指纹，虹膜等），这种行为分析较为不可靠，当时也很难收集足够的细度的数据，例如<a href="https://www.hindawi.com/journals/tswj/2013/408280/">这篇survey</a> </p><p>现在的研究渗透到各个领域，例如<a href="https://www.nature.com/articles/s41598-022-11865-7">这篇</a>《Diagnostic accuracy of keystroke dynamics as digital biomarkers for fine motor decline in neuropsychiatric disorders: a systematic review and meta-analysis》就是关于医学方面利用keystroke dynamics来进行诊断的方法review。</p><p>关于安全领域的review可以看<a href="https://link.springer.com/chapter/10.1007/978-981-15-0324-5_13">这篇</a>《A Comprehensive Review of Keystroke Dynamics-Based Authentication Mechanism》。在IEEE的<a href="https://ieeexplore.ieee.org/abstract/document/9155004/">这篇</a>文章中，还探讨了其对情绪的表征，这篇论文还进行了一定程度的数据集构建，并细化了相关的分类方法论。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>我们可以发现，在当前的诸多关于Keystroke dynamics的研究中，并没有出现相对于其他显式数据更强的用户画像能力，作为一个比较有潜力的辅助认证手段，Keystroke dynamics更多应用于安全领域。</p><p>综上所述，60 minutes中的这些言论是夸大且不负责任的。</p><p>最后，我想稍微讨论一下Keystroke dynamics的翻译，国内少量的翻译均机翻成了“键盘动力学”，我认为这不够信达雅。比照“指纹”，“声纹”，Keystroke dynamics被翻译成“键纹”似乎是比较恰当的。毕竟很长一段时间内人类仍然会使用这种敲击选择字母的方式将自己的思想转换为电子空间中的文字。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Learning</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/04/13/%E4%B8%89%E8%8A%B1%E7%BA%AA%E5%BF%B5/"/>
+    <url>/2023/04/13/%E4%B8%89%E8%8A%B1%E7%BA%AA%E5%BF%B5/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>重要图书归档</title>
     <link href="/2023/04/12/%E9%87%8D%E8%A6%81%E5%9B%BE%E4%B9%A6%E5%BD%92%E6%A1%A3/"/>
     <url>/2023/04/12/%E9%87%8D%E8%A6%81%E5%9B%BE%E4%B9%A6%E5%BD%92%E6%A1%A3/</url>
